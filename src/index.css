@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#login {
+  position: relative;
+  top: -5px;
+  left: 15px;
+}
+
+#btn {
+  margin-top: 10px;
+  position: relative;
+  left: 27px;
+  width: 150px;
+}
+
+.loginField {
+  position: fixed;
+  height: 150px;
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px rgba(85, 85, 85, 0.5);
+}
+
+#text {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+}
